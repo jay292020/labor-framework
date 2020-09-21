@@ -1,10 +1,20 @@
 .App {
-  text-align: center;
+ padding: 10px;
 }
-
+code{
+  background: gray;
+  color: white;
+  border-radius: 5px;
+  padding: 1px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.f-title{
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +45,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.error-button{
+  margin-top: 20px;
 }
