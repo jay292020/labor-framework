@@ -1,4 +1,4 @@
-import AlertPop from './common/AlertPop'
+import AlertPop from './AlertPop'
 export {
     AlertPop
 }
